@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: j l, b, LIC=CZLZX-HHUUE-MMK9I-T4DPZ-F58I1-H6TP0
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.40.0.3
+Toolchain Path:  D:\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.18.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\D\JLB Often\STM32\STM32projects\Projects\ARHSModule_G431\MDK-ARM\ARHSModule_G431.uvprojx
+Project File Date:  03/20/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil5\ARM\ARMCC\Bin'
+Build target 'ARHSModule_G431'
+compiling tim.c...
+compiling gpio.c...
+compiling angle.c...
+compiling main.c...
+../Core/Src/main.c(101): warning:  #188-D: enumerated type mixed with another type
+  	LED(1);//µãÁÁLED
+../Core/Src/main.c: 1 warning, 0 errors
+linking...
+Program Size: Code=26864 RO-data=568 RW-data=68 ZI-data=17788  
+FromELF: creating hex file...
+After Build - User command #1: "D:\D\JLB Often\STM32\STM32projects\Projects\ARHSModule_G431\MDK-ARM\Keil5_disp_size_bar_v0.4.exe"
+[Keil5_disp_size_bar V0.4]: find project satrt!
+[Keil5_disp_size_bar V0.4]: Found file: .//ARHSModule_G431.uvprojx
+[Keil5_disp_size_bar V0.4]: Found file: .//ARHSModule_G431.uvprojx
+[Keil5_disp_size_bar V0.4]: find map file start
+[Keil5_disp_size_bar V0.4]: Found file: .//ARHSModule_G431/ARHSModule_G431.map
+[Keil5_disp_size_bar V0.4]: map file read end
+ram:
+   32 KB   ram1:|¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö¡ö__________| 54.49 % (   17.44 KB /    32.00 KB) [14912 B]
+flash:
+  128 KB flash1:|¡ö¡ö¡ö¡ö________________| 20.93 % (   26.79 KB /   128.00 KB) [103640 B]
+ 
+"ARHSModule_G431\ARHSModule_G431.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32G4xx_DFP.1.5.0.pack
+                Keil::STM32G4xx_DFP@1.5.0
+                STMicroelectronics STM32G4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_ARHSModule_G431
+  D:/Keil5_pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  D:/Keil5_pack/Keil/STM32G4xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

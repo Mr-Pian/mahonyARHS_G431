@@ -1,0 +1,9 @@
+arhsmodule_g431\inv_imu_driver.o: ..\Drivers\BSP_HardWare\icm45686\imu\inv_imu_driver.c
+arhsmodule_g431\inv_imu_driver.o: ../Drivers/BSP_HardWare/icm45686/imu/inv_imu_driver.h
+arhsmodule_g431\inv_imu_driver.o: ../Drivers/BSP_HardWare/icm45686/imu/inv_imu_defs.h
+arhsmodule_g431\inv_imu_driver.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+arhsmodule_g431\inv_imu_driver.o: ../Drivers/BSP_HardWare/icm45686/imu/inv_imu.h
+arhsmodule_g431\inv_imu_driver.o: ../Drivers/BSP_HardWare/icm45686/imu/inv_imu_regmap_le.h
+arhsmodule_g431\inv_imu_driver.o: ../Drivers/BSP_HardWare/icm45686/imu/inv_imu_transport.h
+arhsmodule_g431\inv_imu_driver.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+arhsmodule_g431\inv_imu_driver.o: ../Drivers/BSP_HardWare/icm45686/imu/inv_imu_version.h

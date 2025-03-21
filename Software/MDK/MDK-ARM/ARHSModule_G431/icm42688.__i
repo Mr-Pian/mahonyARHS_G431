@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc -I ../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/BSP_HardWare -I ../Drivers/SYSTEM/delay -I ../Drivers/SYSTEM/sys -I ../Drivers/BSP_HardWare/icm45686/imu -I ../Drivers/BSP_HardWare/icm45686
+-I.\RTE\_ARHSModule_G431
+-ID:\Keil5_pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include
+-ID:\Keil5_pack\Keil\STM32G4xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G4xx\Include
+-D__UVISION_VERSION="540" -DSTM32G431xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32G431xx
+-o arhsmodule_g431\icm42688.o --omf_browse arhsmodule_g431\icm42688.crf --depend arhsmodule_g431\icm42688.d "..\Drivers\BSP_HardWare\icm42688.c"
